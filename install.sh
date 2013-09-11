@@ -9,7 +9,7 @@ FILE_PATH=`cd  $dir;pwd`
 if [ -f ~/.bashrc ]
 then
 	echo "Making backup of .bashrc"
-	mv ~/.bashrc ~/.bashrc.backup	
+	mv ~/.bashrc ~/.bashrc.backup.`date +%Y%m%d.%H%M%S`
 fi
 
 
