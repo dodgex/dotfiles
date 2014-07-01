@@ -17,4 +17,3 @@ ln -s "$FILE_PATH/.bashrc" ~/.bashrc
 
 echo "Loading new .bashrc"
 . ~/.bashrc
-
